@@ -1,0 +1,8 @@
+create database douban DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+use douban;
+CREATE TABLE doubanmovie (
+    name VARCHAR(100) NOT NULL, # 电影名字
+    info VARCHAR(150), # 电影信息
+    rating VARCHAR(10), # 评分
+    quote VARCHAR(100) # 经典语句
+)
